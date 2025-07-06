@@ -10,6 +10,7 @@ function App() {
      <NavBar/>
      <DogImg/>
      <Accodian/>
+     
     </div>
   )
 }

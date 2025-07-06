@@ -5,6 +5,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+
+
 const Accodian = () => {
   const accordionData = [
     {
@@ -37,6 +39,18 @@ const Accodian = () => {
           </AccordionItem>
         ))}
       </Accordion>
+
+      <h2 className="text-center poppins">
+        Made by{" "}
+        <a
+          href="https://github.com/vijaynaidu16"
+          target="_blank"
+          className="underline"
+        >
+          Vijay
+        </a>
+        ❤️‍🔥
+      </h2>
     </div>
   );
 };
